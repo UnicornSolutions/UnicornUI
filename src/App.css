@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar2 {
+  font-family: 'Amatic SC', cursive;
+  background: rgb(105,204,240);
+  background: linear-gradient(45deg, rgba(105,204,240,1) 0%, rgb(1, 64, 87) 100%);
+}
+
+.navbar {
+  font-family: 'Amatic SC', cursive;
+  background: rgb(87,24,167);
+  background: linear-gradient(45deg, rgba(87,24,167,1) 0%, rgba(35,0,69,1) 100%);
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  /* background: rgb(87,24,167);
+background: linear-gradient(45deg, rgba(87,24,167,1) 0%, rgba(35,0,69,1) 100%); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white;*/
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#root {
+  /* max-width: 1280px; */
+  flex-basis: 100%;
+  /* margin: 0 auto;
+  padding: 2rem; */
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
