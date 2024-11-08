@@ -7,16 +7,28 @@
   pointer-events: none;
 }
 
-.navbar2 {
+.banner2-light {
   font-family: 'Amatic SC', cursive;
   background: rgb(105,204,240);
-  background: linear-gradient(45deg, rgba(105,204,240,1) 0%, rgb(1, 64, 87) 100%);
+  background: linear-gradient(45deg, #00829C 0%, #002A34 100%);
 }
 
-.navbar {
+.banner2-dark{
+  font-family: 'Amatic SC', cursive;
+  background: rgb(105,204,240);
+  background: linear-gradient(45deg, #B1ECFF 0%, #00829C 100%);
+}
+
+.banner-light {
   font-family: 'Amatic SC', cursive;
   background: rgb(87,24,167);
-  background: linear-gradient(45deg, rgba(87,24,167,1) 0%, rgba(35,0,69,1) 100%);
+  background: linear-gradient(45deg, #717596 0%, #202440 100%);
+}
+
+.banner-dark {
+  font-family: 'Amatic SC', cursive;
+  background: rgb(87,24,167);
+  background: linear-gradient(45deg, #DFE0FF 0%, #717596 100%);
 }
 
 .App-header {
